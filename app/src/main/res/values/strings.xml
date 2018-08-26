@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lecture4</string>
+    <string-array name="Names">
+        <item> Jordan </item>
+        <item> America </item>
+        <item> Canada </item>
+    </string-array>
+</resources>
