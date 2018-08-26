@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_before"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="27dp"
+            android:text="Love Calculator"/>
+
+        <EditText
+            android:id="@+id/loverName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lover name"/>
+
+
+        <EditText
+            android:id="@+id/loverAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Lover Age"/>
+
+
+        <EditText
+            android:id="@+id/yourName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your name"/>
+
+
+        <EditText
+            android:id="@+id/yourAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Your Age"/>
+
+        <Button
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:textSize="40dp"
+            android:onClick="calculate"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/transparent"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
