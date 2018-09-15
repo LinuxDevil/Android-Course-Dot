@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:drawableBottom="@drawable/ic_launcher_foreground"
+            android:onClick="scale"
+            android:padding="5dp"
+            android:text="Scale"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/translateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:drawableBottom="@drawable/ic_launcher_foreground"
+            android:onClick="translate"
+            android:padding="5dp"
+            android:text="Trans"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <Button
+            android:id="@+id/rotateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:drawableBottom="@drawable/ic_launcher_foreground"
+            android:onClick="rotate"
+            android:padding="5dp"
+            android:text="Rotate"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/alphaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:drawableBottom="@drawable/ic_launcher_foreground"
+            android:padding="5dp"
+            android:onClick="alpha"
+            android:text="Alpha"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/animationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:id="@+id/linearAnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:alpha="0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:background="@android:color/holo_red_light"
+        android:drawableLeft="@android:drawable/ic_media_play"
+        android:onClick="playActivityAnimation"
+        android:padding="10dp"
+        android:text="Play Activity Animation" />
+</RelativeLayout>
