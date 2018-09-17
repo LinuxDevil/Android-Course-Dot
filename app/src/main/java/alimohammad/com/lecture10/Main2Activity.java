@@ -12,5 +12,6 @@ public class Main2Activity extends AppCompatActivity {
 //        To Play animation on this activity
         overridePendingTransition(R.anim.slide_out, R.anim.slide_in);
 
+
     }
 }

@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements Animation.AnimationListener {
+public class MainActivity extends AppCompatActivity {
 
     ImageView animImage;
     Animation scale;
@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        overridePendingTransition(R.anim.slide_out, R.anim.slide_in);
 
         animImage = findViewById(R.id.animationImage);
         animImage.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
                 ,2,0.5f,0.5f);
         scaleAnim.setDuration(2000);
         scaleAnim.setFillAfter(true);
-        scaleAnim.setAnimationListener(this);
+//        scaleAnim.setAnimationListener(this);
         animImage.startAnimation(scaleAnim);
     }
 
@@ -98,25 +97,25 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
 
 
 // TO see when the animation start
-
-    @Override
-    public void onAnimationStart(Animation animation) {
-        Toast.makeText(this, "animation started", Toast.LENGTH_SHORT).show();
-
-    }
-// TO see when the animation end
-
-    @Override
-    public void onAnimationEnd(Animation animation) {
-        Toast.makeText(this, "animation end", Toast.LENGTH_SHORT).show();
-
-    }
-
-    // TO see when the animation repeat
-
-    @Override
-    public void onAnimationRepeat(Animation animation) {
-        Toast.makeText(this, "animation repeat", Toast.LENGTH_SHORT).show();
-
-    }
+//
+//    @Override
+//    public void onAnimationStart(Animation animation) {
+//        Toast.makeText(this, "animation started", Toast.LENGTH_SHORT).show();
+//
+//    }
+//// TO see when the animation end
+//
+//    @Override
+//    public void onAnimationEnd(Animation animation) {
+//        Toast.makeText(this, "animation end", Toast.LENGTH_SHORT).show();
+//
+//    }
+//
+//    // TO see when the animation repeat
+//
+//    @Override
+//    public void onAnimationRepeat(Animation animation) {
+//        Toast.makeText(this, "animation repeat", Toast.LENGTH_SHORT).show();
+//
+//    }
 }
