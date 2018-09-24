@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lecture6</string>
+    <string-array name="names">
+        <item>Batman</item>
+        <item>Superman</item>
+        <item>Captin America</item>
+        <item>Spiderman</item>
+    </string-array>
+</resources>
