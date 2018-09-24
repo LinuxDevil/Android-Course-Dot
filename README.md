@@ -17,6 +17,7 @@ Replace your 'g' with your own video name.
                 "/" + R.raw.g);
 ```
 
-Follow the ```Java
+Follow the
+```Java
       //TODO:
       ``` Inside your project.
