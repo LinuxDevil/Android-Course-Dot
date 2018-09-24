@@ -13,16 +13,16 @@ SQLiteDatabase database = this.openOrCreateDatabase("Users" , MODE_PRIVATE, null
 String TALBE = "CREATE TABLE IF NOTEXISTS userinfo (name VARCHAR, age INTEGER(3), id INTEGER PRIMARY AUTOINCREMENT)";
 
 //Selecting cols: name,age,id from the table userinfo
-String SELECT = "SELECT (name,age,id) from userinfo"
+String SELECT = "SELECT (name,age,id) from userinfo";
 
 //Inserting into the table userinfo inside the cols: name and age the values ali and 20 , and the id gets auto incremented
-String INSERT = INSERT into userinfo (name, age) values('ali', '20') 
+String INSERT = "INSERT into userinfo (name, age) values('ali', '20')"; 
 
 //Deleting from the table userinfo where the id is 1
 String DELETE = "DELETE from userinfo where id = 1"
 
 //Updating from the table userinfo (age will be 28) (name will be mohammad) where the id is 1
-STRING UPDATE = "UPDATE userinfo set age = 28, name= mohammad where id = 1"
+STRING UPDATE = "UPDATE userinfo set age = 28, name= mohammad where id = 1";
 
 //Executing the SQL commands
 database.execSQL(TABLE);
