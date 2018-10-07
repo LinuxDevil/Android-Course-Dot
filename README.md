@@ -44,6 +44,8 @@ https://github.com/LinuxDevil/Android-Course-Dot/tree/Lecture11_Task
 💀 Lecture 12:
 https://github.com/LinuxDevil/Android-Course-Dot/tree/Lecture_12S_QLite
 
-Lecture 13: We will learn about SQLiteOpenHelper and Firebase!
+💀 Lecture 12 - SQLiteHelper:
+https://github.com/LinuxDevil/Android-Course-Dot/tree/lecture_12
 
-Lecture 14: Big App? Small App? We Don't know! So Stay tuned!
+💀 Lecture 13:
+https://github.com/LinuxDevil/Android-Course-Dot/tree/lecture_13
