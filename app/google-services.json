@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "942627287496",
+    "firebase_url": "https://fir-lecture13.firebaseio.com",
+    "project_id": "fir-lecture13",
+    "storage_bucket": "fir-lecture13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942627287496:android:425ed8f3ee888d32",
+        "android_client_info": {
+          "package_name": "alimohammad.com.firebase_lecture13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942627287496-p9o0ckr3odrg5j66nn0nibg58o5fcsj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alimohammad.com.firebase_lecture13",
+            "certificate_hash": "99a503afb92c80e2c3d6193fbe8c7a6765b8ba2c"
+          }
+        },
+        {
+          "client_id": "942627287496-sln13re8a9ke8mq9otr4s4sf4epefmn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY2JxwGEPy4kTzWJkEwBKNkKQTSrpc8Pw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942627287496-sln13re8a9ke8mq9otr4s4sf4epefmn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
